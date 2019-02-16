@@ -1,0 +1,94 @@
+<?xml version="1.0" encoding="utf-8"?>
+
+<android.support.v4.widget.DrawerLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    android:id="@+id/drawer_layout"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent">
+
+    <android.support.design.widget.CoordinatorLayout
+        xmlns:android="http://schemas.android.com/apk/res/android"
+        xmlns:app="http://schemas.android.com/apk/res-auto"
+        android:layout_width="match_parent"
+        android:layout_height="match_parent">
+
+        <android.support.design.widget.AppBarLayout
+            android:id="@+id/appBar"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:background="@color/white"
+            android:theme="@style/ThemeOverlay.AppCompat.Dark.ActionBar">
+
+            <android.support.v7.widget.Toolbar
+                android:id="@+id/toolbar"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:background="@color/colorPrimary"
+                android:elevation="4dp"
+                android:minHeight="?attr/actionBarSize"
+                android:theme="@style/ThemeOverlay.AppCompat.Dark.ActionBar"
+                app:layout_scrollFlags="scroll|enterAlways"
+                app:popupTheme="@style/ThemeOverlay.AppCompat.Light"
+                app:titleTextColor="@color/colorAccent"></android.support.v7.widget.Toolbar>
+
+            <android.support.design.widget.TabLayout
+                android:id="@+id/tabs"
+                android:layout_width="match_parent"
+                android:layout_height="30dp"
+                app:tabGravity="center"
+                app:tabIndicatorHeight="2dp"
+                app:tabMode="fixed"
+                app:tabSelectedTextColor="#E43F3F"
+                app:tabTextAppearance="@android:style/TextAppearance.DeviceDefault.Medium"
+                app:tabTextColor="#939393" />
+
+            <LinearLayout
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:orientation="horizontal"
+                >
+
+                <TextView
+                    android:id="@+id/tvUnSynced"
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:text="(0)"
+                    android:textSize="10sp"
+                    android:layout_weight="1"
+                    android:layout_gravity="center_vertical"
+                    android:gravity="right"
+                    android:paddingRight="50dp"
+                    android:textColor="@color/black"
+                    android:fontFamily="@font/roboto"
+                    />
+
+                <TextView
+                    android:id="@+id/tvSynced"
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:text="(0)"
+                    android:textSize="10sp"
+                    android:textColor="@color/black"
+                    android:gravity="left"
+                    android:paddingLeft="50dp"
+                    android:layout_weight="1"
+                    android:layout_gravity="center_vertical"
+                    android:fontFamily="@font/roboto"
+                    />
+
+            </LinearLayout>
+        </android.support.design.widget.AppBarLayout>
+
+
+
+        <android.support.v4.view.ViewPager
+            android:id="@+id/viewpager"
+            android:layout_width="match_parent"
+            android:layout_height="match_parent"
+            app:layout_behavior="@string/appbar_scrolling_view_behavior" />
+
+
+    </android.support.design.widget.CoordinatorLayout>
+
+    <include layout="@layout/drawer" />
+</android.support.v4.widget.DrawerLayout>

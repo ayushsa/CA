@@ -1,0 +1,49 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <color name="colorPrimary">#D63224</color>
+    <color name="colorPrimaryDark">#E12929</color>
+    <color name="colorAccent">#ffffff</color>
+
+    <color name="black">#000000</color>
+    <color name="jet">#222222</color>
+    <color name="oil">#333333</color>
+    <color name="monsoon">#777777</color>
+    <color name="jumbo">#888888</color>
+    <color name="aluminum">#999999</color>
+    <color name="base">#AAAAAA</color>
+    <color name="iron">#CCCCCC</color>
+    <color name="white">#FFFFFF</color>
+
+    <color name="gplus_default">#DF4A32</color>
+    <color name="facebook_default">#183C94</color>
+    <color name="twitter_default">#299FD3</color>
+    <color name="gplus_clicked">#90DF4A32</color>
+    <color name="facebook_clicked">#90183C94</color>
+    <color name="twitter_clicked">#90299FD3</color>
+    <color name="yellow">#ffff7561</color>
+    <color name="red">#ffff1900</color>
+    <color name="green">#ffffc236</color>
+    <color name="app_color">#8E0305</color>
+    <color name="app_color_dark">#ff710400</color>
+    <color name="blue">#ff4c76b5</color>
+    <color name="transparent">#00000000</color>
+    <color name="orange">#CE7C01</color>
+    <color name="text_color">#555555</color>
+    <color name="dark_gray_alpha">#40000000</color>
+    <color name="light_grey">#ffcdcdcd</color>
+    <color name="translucent_grey">#50cdcdcd</color>
+    <color name="light_red">#ffebee</color>
+
+    <color name="dark_gray">#575757</color>
+
+    <color name="gray_400">#BDBDBD</color>
+    <color name="colorWhite">#FFFFFF</color>
+
+    <color name="lightest_grey">#b3b3b3</color>
+
+    <color name="material_gree_n">#c3f2c5</color>
+    <color name="material_orange">#edcd9d</color>
+    <color name="material_yellow">#fff9c0</color>
+
+
+</resources>

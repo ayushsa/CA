@@ -1,0 +1,23 @@
+me.drakeet.materialdialog
+color card_background
+color card_shadow
+color lite_blue
+color window_background
+dimen activity_horizontal_margin
+dimen activity_vertical_margin
+drawable button
+drawable material_card
+drawable material_card_nos
+drawable material_card_nos_pressed
+drawable material_dialog_window
+id buttonLayout
+id contentView
+id empty_view
+id material_background
+id message
+id message_content_view
+id title
+layout layout_materialdialog
+string action_settings
+string app_name
+string hello_world
